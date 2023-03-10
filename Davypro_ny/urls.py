@@ -23,9 +23,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('About/', Views .Aboutpage, name='About'),
     path('Home/', Views .Homepage, name='Home'),
-    path('Blog/', Views .Homepage, name='Blog'),
-    path('Contact/', Views .Homepage, name='Contact'),
-    path('Product/', Views .Homepage, name='Product'),
-    path('Services/', Views .Homepage, name='Services')
+    path('Blog/', Views .Blogpage, name='Blog'),
+    path('Contact/', Views .Contactpage, name='Contact'),
+    path('Product/', Views .Productpage, name='Product'),
+    path('Services/', Views .Servicespage, name='Services')
 
 ]
