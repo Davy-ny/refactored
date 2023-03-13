@@ -22,10 +22,10 @@ from . import Views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('About/', Views .Aboutpage, name='About'),
+    path('', Views .Indexpage, name='index'),
     path('Home/', Views .Homepage, name='Home'),
     path('Blog/', Views .Blogpage, name='Blog'),
     path('Contact/', Views .Contactpage, name='Contact'),
     path('Product/', Views .Productpage, name='Product'),
     path('Services/', Views .Servicespage, name='Services')
-
 ]

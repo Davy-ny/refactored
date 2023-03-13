@@ -18,6 +18,9 @@ def Servicespage(request):
 def Productpage(request):
     return render(request, 'Product.html')
 
+def Indexpage(request):
+    return render(request, 'index.html')
+
 
 
 
